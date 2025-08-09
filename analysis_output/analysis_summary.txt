@@ -1,0 +1,48 @@
+================================================================================
+DATASET EXPLORATION AND ANALYSIS SUMMARY
+================================================================================
+
+1. DATA QUALITY ASSESSMENT
+----------------------------------------
+Total Rows: 10909
+Total Columns: 12
+Duplicate Rows: 30 (0.28%)
+
+Missing Values by Column:
+  ﻿conversation_id_str: 0 (0.00%)
+  created_at: 0 (0.00%)
+  favorite_count: 0 (0.00%)
+  full_text: 0 (0.00%)
+  id_str: 0 (0.00%)
+  image_url: 8426 (77.24%)
+  in_reply_to_screen_name: 7240 (66.37%)
+  lang: 0 (0.00%)
+  location: 6480 (59.40%)
+  quote_count: 0 (0.00%)
+  reply_count: 0 (0.00%)
+  retweet_count: 0 (0.00%)
+
+2. TEXT LENGTH ANALYSIS
+----------------------------------------
+Total Texts: 10909
+Non-empty Texts: 10909
+Min Length: 18
+Max Length: 436
+Mean Length: 155.23
+Median Length: 133
+
+Length Distribution:
+  Empty: 0 (0.00%)
+  Very Short: 0 (0.00%)
+  Short: 445 (4.08%)
+  Medium: 5426 (49.74%)
+  Long: 4212 (38.61%)
+  Very Long: 826 (7.57%)
+
+3. FILTERED DATA STATISTICS
+----------------------------------------
+Original Count: 10909
+Filtered Count: 10083
+Removed Count: 826
+Retention Rate: 92.43%
+Filter Criteria: Text length: 5-280 characters
